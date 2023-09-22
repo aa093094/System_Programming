@@ -1,0 +1,36 @@
+    1  history
+    2  ls
+    3  history
+    4  ls
+    5  history
+    6  ls
+    7  man fortune
+    8  man ls
+    9  cd ~
+   10  ls
+   11  cd lab
+   12  cd lab2
+   13  ls
+   14  ..
+   15  ../
+   16  cd..
+   17  cd ..
+   18  cd .
+   19  cd lab2
+   20  less
+   21  ls std
+   22  ls g*.exe
+   23  ls lab*.c
+   24  less /etc/passwd
+   25  lsb_release -a
+   26  man ls
+   27  pwd
+   28  cd /etc/passwd
+   29  cd /etc
+   30  cd lab/lab2
+   31  cd lab2
+   32  cd ~
+   33  cd lab
+   34  cd lab2
+   35  cat /etc/passwd
+   36  history > lab2_s2020113673.log
