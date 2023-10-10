@@ -1,0 +1,71 @@
+Starting program: /home/s2020113673/lab/lab4_s2020113673/a.out 
+
+Program received signal SIGSEGV, Segmentation fault.
+0x00005555555551ce in main (argc=1, argv=0x7fffffffe488) at buggy.c:13
+13			x[i] = i;
+Breakpoint 1 at 0x5555555551b4: file buggy.c, line 11.
+Breakpoint 2 at 0x555555555189: file buggy.c, line 7.
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Starting program: /home/s2020113673/lab/lab4_s2020113673/a.out 
+
+Breakpoint 2, main (argc=0, argv=0x1e0) at buggy.c:7
+7	{
+
+Breakpoint 1, main (argc=1, argv=0x7fffffffe488) at buggy.c:11
+11		for(i = 0; i < 10000; ++i)
+13			x[i] = i;
+$1 = 0
+$2 = 848
+11		for(i = 0; i < 10000; ++i)
+1: i = 0
+2: x[i] = 0
+13			x[i] = i;
+1: i = 1
+2: x[i] = 0
+11		for(i = 0; i < 10000; ++i)
+1: i = 1
+2: x[i] = 1
+13			x[i] = i;
+1: i = 2
+2: x[i] = 848
+11		for(i = 0; i < 10000; ++i)
+1: i = 2
+2: x[i] = 2
+Undefined command: "lisst".  Try "help".
+6	int main(int argc, char* argv[])
+7	{
+8		int i, j, k;
+9		int x[1000];
+10	
+11		for(i = 0; i < 10000; ++i)
+12		{
+13			x[i] = i;
+14		}
+15	
+$3 = {0, 1, 2, 0, 848, 0, 32, 0, 32, 0, 8, 0, 4, 4, 880, 0, 880, 0, 880, 
+  0, 68, 0, 68, 0, 4, 0, 7, 4, 1996680, 0, 2000776, 0, 2000776, 0, 16, 0, 
+  144, 0, 8, 0, 1685382483, 4, 848, 0, 848, 0, 848, 0, 32, 0, 32, 0, 8, 0, 
+  1685382480, 4, 1828540, 0, 1828540, 0, 1828540, 0, 24276, 0, 24276, 0, 
+  4, 0, 1685382481, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 0, 1685382482, 4, 
+  1996680, 0, 2000776, 0, 2000776, 0, 14456, 0, 14456, 0, 1, 0, -10416, 
+  32767, -134390121, 32767, 1996680, 0, 2000776, 0, -134478240, 32767, 16, 
+  3, 2037344, 0, 0, 0, -11696, 32767, 0, 0, -134221984, 32767, 1431651489, 
+  21845, 6, 0, -134492160, 32767, -134225568, 32767, -10416, 32767, 0, 3, 
+  -12368, 32767, 64768, 0, 3435655, 0, 64768, 0, 3435655, 0, 1, 0, 33261, 
+  0, 0, 0, 0, 0, 2029592, 0, 4096, 0, 3968, 0, 1696470488, 0, 684733646, 
+  0, 1690357479, 0, 0, 0, 1696470488, 0, 620727705, 0 <repeats 11 times>, 
+  -134225520, 32767, -134341668, 32767, -134229920, 32767, 0, 0, 0, 0, 
+  -134376215, 32767, 1, 0, 0, 0, -10424, 32767, 0, 0, 1, 0, 0, 0, 
+  -134221984...}
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x00005555555551ce in main (argc=1, argv=0x7fffffffe488) at buggy.c:13
+13			x[i] = i;
+1: i = 1800
+2: x[i] = <error: Cannot access memory at address 0x7ffffffff000>
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
