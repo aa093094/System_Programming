@@ -1,0 +1,1 @@
+Lab6 is about writing the write command, studying settings about echo, and writing stty and more commands.
