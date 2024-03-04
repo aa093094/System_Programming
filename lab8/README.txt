@@ -1,0 +1,1 @@
+Lab8 is about using curses library.

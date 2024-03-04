@@ -1,0 +1,1 @@
+Lab7 is about terminal and signals.

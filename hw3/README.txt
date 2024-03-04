@@ -1,0 +1,1 @@
+HW3 is about solo autonomic project. I make blackjack with curses library.

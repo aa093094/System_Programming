@@ -1,0 +1,1 @@
+HW2 is about making a bouncing ball that can speed up or down with curses library.
